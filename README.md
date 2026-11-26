@@ -1,27 +1,31 @@
 # Sistema Automático de Saneado de Madera (Visión Artificial)
 
-Este repositorio contiene el código fuente para una máquina saneadora de madera automatizada. El sistema utiliza visión computacional (OpenCV) para detectar defectos (nudos) en tiempo real sobre una cinta transportadora, y se comunica vía puerto serie con un microcontrolador (Arduino) para sincronizar el avance de los motores paso a paso y el accionamiento neumático de la sierra.
+Prototipo funcional de una máquina saneadora de nudos para finger joint (E.P.E.T. N°7, 2026). El sistema emplea visión artificial en tiempo real (Python / OpenCV) para detectar defectos estructurales sobre una cinta transportadora y opera en arquitectura descentralizada junto a un microcontrolador Arduino UNO para el control cinemático en lazo abierto y la sincronización de corte.
 
 ## Características Principales
 
-- **Visión Computacional:** Procesamiento de fotogramas a 60 FPS mediante filtrado gaussiano, binarización y análisis de contornos para aislar nudos oscuros sobre la madera.
-- **Lógica de Agrupamiento:** Algoritmo geométrico propio para fusionar defectos cercanos o fragmentados (`agrupar_defectos_cercanos`), evitando cortes redundantes.
-- **Rastreo Espacial:** Cálculo de odometría basado en la conversión de píxeles a milímetros y compensación de distancia (offset) entre la cámara y la sierra (600 mm).
-- **Comunicación Asíncrona:** Protocolo serial custom (tramas `Q:` para cortes y `A` para avance continuo) para orquestar la secuencia de los actuadores sin bloquear el bucle de video.
+- **Visión Artificial y HMI Desacoplada:** Procesamiento de fotogramas (`640×480 @ 60 fps`) sobre una Región de Interés (ROI) con aplanado a escala de grises, filtro Gaussiano, binarización y filtrado por área mínima, ejecutado en un hilo secundario independiente de la interfaz gráfica (`CustomTkinter`).
+- **Agrupamiento Geométrico en Eje Horizontal (`X1 → X2`):** Algoritmo propio (`agrupar_defectos_cercanos`) para unificar defectos próximos o fragmentados dentro del largo mínimo útil, evitando cortes redundantes.
+- **Odometría en Lazo Abierto y Rampas Dinámicas:** Transmisión mediante motor paso a paso bipolar Varitel, driver industrial R.T.A. X-PLUS (220V AC, 1/4 de micropaso, `800 pasos/rev`), poleas dentadas HTD `18/28` (relación `1.56:1`) y rodillo tractor de `Ø 115,19 mm` (`3,4388 pasos/mm`), con offset físico de `1000 mm` y perfiles de aceleración trapezoidales/triangulares en firmware.
+- **Comunicación Serial Bidireccional (`115200 baudios`):** Protocolo asíncrono no bloqueante con cola FIFO circular en Arduino: transmisión de marcha (`A`), reinicio de odometría por nueva tabla (`R`), coordenadas de corte (`Q:p1|p2`) y recepción de telemetría (`ODOM:xx`).
+- **Actuación Modular:** Arquitectura prevista para sistema neumático de 24V DC (pisón superior y sierra inferior ascendente con descarte por gravedad), validada en etapa de prototipo mediante marcador láser de 5 mW (640 nm) comandado por relé.
 
 ## Estructura del Repositorio
 
 ```text
-proyecto_saneadora/
-├── firmware/                  # Código fuente para el microcontrolador (.ino)
-├── src/                       # Módulos principales del sistema (Python)
-│   ├── main.py                # Bucle de orquestación (Visión + Serial)
-│   ├── vision.py              # Funciones de procesamiento geométrico
-│   ├── comunicacion.py        # Interfaz de control vía PySerial
-│   └── config.py              # Constantes físicas, umbrales y calibración
-├── scripts/                   # Herramientas de diagnóstico y mantenimiento
-│   ├── calibre.py             # Script para cálculo de escala (píxeles/mm)
-│   └── visor.py               # Panel de control con sliders para ajustar umbrales en vivo
-├── docs/                      # Diagramas de flujo, unifilares y documentación del proyecto
-├── .gitignore                 # Exclusión de entornos virtuales y archivos temporales
-└── requirements.txt           # Dependencias del proyecto
+saneadora/
+├── firmware/                  # Firmware modular en C++ para Arduino UNO
+│   ├── firmware.ino           # Configuración de pines, FIFO y bucle principal
+│   ├── com.ino                # Parseo serial ('A', 'R', 'Q:') y telemetría
+│   ├── odo_motor.ino          # Control de rampas dinámicas y odometría
+│   └── neumatica.ino          # Máquina de estados no bloqueante (láser / neumática)
+├── src/                       # Software de visión artificial y HMI (Python)
+│   ├── main.py                # Orquestación multihilo (HMI + visión + serial)
+│   ├── vision.py              # Agrupamiento geométrico de defectos en eje X
+│   ├── com.py                 # Gestión de puerto serie vía PySerial
+│   └── config.example.py      # Constantes de calibración, ROI y umbrales
+├── calib/                     # Utilidades de calibración óptica y pruebas de banco
+├── docs/                      # Planos mecánicos, unifilares y diagramas de flujo (SVG/PNG)
+├── .gitignore                 # Exclusión de entornos virtuales y compilados temporales
+├── LICENSE                    # Licencia
+└── README.md                  # Documentación general del repositorio

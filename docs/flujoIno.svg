@@ -1,0 +1,940 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 640000 1322500"
+   width="640000"
+   height="1322500"
+   version="1.1"
+   id="svg37"
+   sodipodi:docname="gemini-svg (6).svg"
+   inkscape:export-filename="Estados Generales.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   inkscape:version="1.4.2 (f4327f4, 2025-05-13)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview37"
+     pagecolor="#ffffff"
+     bordercolor="#111111"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="false"
+     inkscape:deskcolor="#404040"
+     inkscape:zoom="0.74"
+     inkscape:cx="334.45946"
+     inkscape:cy="776.35135"
+     inkscape:window-width="1920"
+     inkscape:window-height="1111"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg37">
+    <inkscape:page
+       x="0"
+       y="0"
+       width="640000"
+       height="1322500"
+       id="page2"
+       margin="0"
+       bleed="0" />
+  </sodipodi:namedview>
+  <defs
+     id="defs1">
+    <marker
+       style="overflow:visible"
+       id="marker10"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Triangle arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path10" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker9"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Triangle arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path9" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Triangle"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Triangle arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path135" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker10-9"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Triangle arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path10-4" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker10-4"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Triangle arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path10-5" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker10-1"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Triangle arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path10-1" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker10-6"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Triangle arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path10-14" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker10-2"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Triangle arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path10-16" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker10-92"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Triangle arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path10-7" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker10-3"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Triangle arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path10-12" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker10-11"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Triangle arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path10-3" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker10-27"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Triangle arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path10-79" />
+    </marker>
+  </defs>
+  <text
+     x="400"
+     y="50"
+     font-family="Arial, sans-serif"
+     font-size="20px"
+     font-weight="bold"
+     fill="#2c3e50"
+     text-anchor="middle"
+     id="text1">DIAGRAMA DE FLUJO GENERAL - FIRMWARE ARDUINO (loop)</text>
+  <line
+     x1="346"
+     y1="120"
+     x2="346"
+     y2="161.69131"
+     stroke="#7f8c8d"
+     stroke-width="3.49049"
+     marker-end="url(#arrow)"
+     id="line3"
+     style="fill:#d35400;fill-opacity:1;stroke:#c0392b;stroke-opacity:1;marker-end:url(#Triangle)" />
+  <g
+     id="g2"
+     transform="translate(-54,-14.596291)">
+    <rect
+       x="300"
+       y="190"
+       width="200"
+       height="50"
+       rx="5"
+       fill="#2980b9"
+       stroke="#1a5276"
+       stroke-width="2"
+       id="rect3" />
+    <text
+       x="400"
+       y="212"
+       font-family="Arial, sans-serif"
+       font-size="13px"
+       font-weight="bold"
+       fill="#ffffff"
+       text-anchor="middle"
+       id="text4">Setup: Configurar Pines</text>
+    <text
+       x="400"
+       y="228"
+       font-family="Arial, sans-serif"
+       font-size="13px"
+       font-weight="bold"
+       fill="#ffffff"
+       text-anchor="middle"
+       id="text5">y Comunicaciones</text>
+  </g>
+  <line
+     x1="346"
+     y1="225.4037"
+     x2="346"
+     y2="268.47205"
+     stroke="#7f8c8d"
+     stroke-width="3.37596"
+     marker-end="url(#arrow)"
+     id="line5"
+     style="stroke:#c0392b;stroke-width:3.11297;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker9)" />
+  <line
+     x1="346"
+     y1="320.8074"
+     x2="346"
+     y2="363.7691"
+     stroke="#7f8c8d"
+     stroke-width="3.10908"
+     marker-end="url(#arrow)"
+     id="line6"
+     style="stroke:#c0392b;stroke-opacity:1;marker-end:url(#marker10)" />
+  <line
+     x1="346"
+     y1="456.28815"
+     x2="346"
+     y2="499.31067"
+     stroke="#7f8c8d"
+     stroke-width="3.11128"
+     marker-end="url(#arrow)"
+     id="line6-8"
+     style="stroke:#c0392b;stroke-opacity:1;marker-end:url(#marker10-9)" />
+  <g
+     id="g4"
+     transform="translate(-54,16.288159)">
+    <polygon
+       points="400,360 500,400 400,440 300,400 "
+       fill="#d35400"
+       stroke="#e67e22"
+       stroke-width="2"
+       id="polygon6" />
+    <text
+       x="400"
+       y="398"
+       font-family="Arial, sans-serif"
+       font-size="12px"
+       font-weight="bold"
+       fill="#ffffff"
+       text-anchor="middle"
+       id="text7">¿Datos en</text>
+    <text
+       x="400"
+       y="412"
+       font-family="Arial, sans-serif"
+       font-size="12px"
+       font-weight="bold"
+       fill="#ffffff"
+       text-anchor="middle"
+       id="text8">Buffer Serial?</text>
+  </g>
+  <line
+     x1="446"
+     y1="416"
+     x2="486.39355"
+     y2="416"
+     stroke="#7f8c8d"
+     stroke-width="2.69645"
+     marker-end="url(#arrow)"
+     id="line9"
+     style="stroke:#c0392b;stroke-opacity:1;marker-end:url(#marker9)" />
+  <text
+     x="465"
+     y="412"
+     font-family="Arial, sans-serif"
+     font-size="12px"
+     font-weight="bold"
+     fill="#2c3e50"
+     text-anchor="middle"
+     id="text10">SÍ</text>
+  <text
+     x="331"
+     y="472.87845"
+     font-family="Arial, sans-serif"
+     font-size="12px"
+     font-weight="bold"
+     fill="#2c3e50"
+     text-anchor="middle"
+     id="text10-1">NO</text>
+  <text
+     x="332.10938"
+     y="743.73633"
+     font-family="Arial, sans-serif"
+     font-size="12px"
+     font-weight="bold"
+     fill="#2c3e50"
+     text-anchor="middle"
+     id="text10-1-2">NO</text>
+  <text
+     x="331.74863"
+     y="610.50659"
+     font-family="Arial, sans-serif"
+     font-size="12px"
+     font-weight="bold"
+     fill="#2c3e50"
+     text-anchor="middle"
+     id="text10-1-6">NO</text>
+  <path
+     d="m 596,441 0.13947,43.21216 -239.62842,-0.71666"
+     fill="none"
+     stroke="#7f8c8d"
+     stroke-width="2.43853"
+     id="path12"
+     sodipodi:nodetypes="ccc"
+     style="stroke:#e67e22;stroke-width:2.439;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker10)" />
+  <path
+     d="M 595.86053,577.78784 596,621 356.37158,620.28334"
+     fill="none"
+     stroke="#7f8c8d"
+     stroke-width="2.43853"
+     id="path12-5"
+     sodipodi:nodetypes="ccc"
+     style="stroke:#e67e22;stroke-width:2.439;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker10-92)" />
+  <path
+     d="M 595.86053,711.78784 596,755 356.37158,754.28334"
+     fill="none"
+     stroke="#7f8c8d"
+     stroke-width="2.43853"
+     id="path12-3"
+     sodipodi:nodetypes="ccc"
+     style="stroke:#e67e22;stroke-width:2.439;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker10-3)" />
+  <g
+     id="g5"
+     transform="translate(-54,31.845934)">
+    <polygon
+       points="400,480 500,520 400,560 300,520 "
+       fill="#d35400"
+       stroke="#e67e22"
+       stroke-width="2"
+       id="polygon12" />
+    <text
+       x="400"
+       y="518"
+       font-family="Arial, sans-serif"
+       font-size="12px"
+       font-weight="bold"
+       fill="#ffffff"
+       text-anchor="middle"
+       id="text13">¿modoAvance</text>
+    <text
+       x="400"
+       y="532"
+       font-family="Arial, sans-serif"
+       font-size="12px"
+       font-weight="bold"
+       fill="#ffffff"
+       text-anchor="middle"
+       id="text14">es TRUE?</text>
+  </g>
+  <line
+     x1="446"
+     y1="552"
+     x2="486.39355"
+     y2="552"
+     stroke="#7f8c8d"
+     stroke-width="2.69645"
+     marker-end="url(#arrow)"
+     id="line15"
+     style="stroke:#c0392b;stroke-opacity:1;marker-end:url(#marker9)" />
+  <text
+     x="465"
+     y="548"
+     font-family="Arial, sans-serif"
+     font-size="12px"
+     font-weight="bold"
+     fill="#2c3e50"
+     text-anchor="middle"
+     id="text16">SÍ</text>
+  <rect
+     x="496"
+     y="527"
+     width="200"
+     height="50"
+     rx="5"
+     fill="#e67e22"
+     stroke="#1a5276"
+     stroke-width="2"
+     id="rect16" />
+  <text
+     x="596"
+     y="549"
+     font-family="Arial, sans-serif"
+     font-size="13px"
+     font-weight="bold"
+     fill="#ffffff"
+     text-anchor="middle"
+     id="text17">avanzarMotor()</text>
+  <text
+     x="596"
+     y="565"
+     font-family="Arial, sans-serif"
+     font-size="13px"
+     font-weight="bold"
+     fill="#ffffff"
+     text-anchor="middle"
+     id="text18">Pulso STEP y Odom++</text>
+  <g
+     id="g6"
+     transform="translate(-54,47.403709)">
+    <polygon
+       points="400,600 500,640 400,680 300,640 "
+       fill="#d35400"
+       stroke="#e67e22"
+       stroke-width="2"
+       id="polygon18" />
+    <text
+       x="400"
+       y="638"
+       font-family="Arial, sans-serif"
+       font-size="12px"
+       font-weight="bold"
+       fill="#ffffff"
+       text-anchor="middle"
+       id="text19">¿Odometría coincide</text>
+    <text
+       x="400"
+       y="652"
+       font-family="Arial, sans-serif"
+       font-size="12px"
+       font-weight="bold"
+       fill="#ffffff"
+       text-anchor="middle"
+       id="text20">con Tarea en FIFO?</text>
+  </g>
+  <line
+     x1="446"
+     y1="688"
+     x2="486.39355"
+     y2="688"
+     stroke="#7f8c8d"
+     stroke-width="2.69645"
+     marker-end="url(#arrow)"
+     id="line21"
+     style="stroke:#c0392b;stroke-opacity:1;marker-end:url(#Triangle)" />
+  <text
+     x="465"
+     y="684"
+     font-family="Arial, sans-serif"
+     font-size="12px"
+     font-weight="bold"
+     fill="#2c3e50"
+     text-anchor="middle"
+     id="text22">SÍ</text>
+  <rect
+     x="495.84833"
+     y="660.84833"
+     width="200.30328"
+     height="50.303288"
+     rx="5.0075822"
+     fill="#c0392b"
+     stroke="#1a5276"
+     stroke-width="1.69671"
+     id="rect22" />
+  <text
+     x="588.12848"
+     y="685.42529"
+     font-family="Arial, sans-serif"
+     font-size="12.1868px"
+     font-weight="bold"
+     fill="#ffffff"
+     text-anchor="middle"
+     id="text23"
+     transform="scale(1.0150288,0.98519373)"
+     style="stroke-width:0.937447">ejecutarOdometria()</text>
+  <text
+     x="588.12848"
+     y="700.42444"
+     font-family="Arial, sans-serif"
+     font-size="12.1868px"
+     font-weight="bold"
+     fill="#ffffff"
+     text-anchor="middle"
+     id="text24"
+     transform="scale(1.0150288,0.98519373)"
+     style="stroke-width:0.937447">modoAvance = false</text>
+  <text
+     x="588.12848"
+     y="715.42358"
+     font-family="Arial, sans-serif"
+     font-size="12.1868px"
+     font-weight="bold"
+     fill="#ffffff"
+     text-anchor="middle"
+     id="text25"
+     transform="scale(1.0150288,0.98519373)"
+     style="stroke-width:0.937447">Llamar iniciarCorte()</text>
+  <line
+     x1="446"
+     y1="822"
+     x2="486.39355"
+     y2="822"
+     stroke="#7f8c8d"
+     stroke-width="2.69645"
+     marker-end="url(#arrow)"
+     id="line28"
+     style="stroke:#c0392b;stroke-opacity:1;marker-end:url(#marker9)" />
+  <text
+     x="465"
+     y="818"
+     font-family="Arial, sans-serif"
+     font-size="12px"
+     font-weight="bold"
+     fill="#2c3e50"
+     text-anchor="middle"
+     id="text29">SÍ</text>
+  <rect
+     x="496"
+     y="797"
+     width="200"
+     height="50"
+     rx="5"
+     fill="#9b59b6"
+     stroke="#1a5276"
+     stroke-width="2"
+     id="rect29" />
+  <text
+     x="596"
+     y="819"
+     font-family="Arial, sans-serif"
+     font-size="13px"
+     font-weight="bold"
+     fill="#ffffff"
+     text-anchor="middle"
+     id="text30">gestionarCorteEstado()</text>
+  <text
+     x="596"
+     y="835"
+     font-family="Arial, sans-serif"
+     font-size="13px"
+     font-weight="bold"
+     fill="#ffffff"
+     text-anchor="middle"
+     id="text31">Avanzar Máquina de Estados</text>
+  <g
+     id="g8"
+     transform="translate(-54,78.519258)">
+    <polygon
+       points="400,840 500,880 400,920 300,880 "
+       fill="#d35400"
+       stroke="#e67e22"
+       stroke-width="2"
+       id="polygon31" />
+    <text
+       x="400"
+       y="885"
+       font-family="Arial, sans-serif"
+       font-size="12px"
+       font-weight="bold"
+       fill="#ffffff"
+       text-anchor="middle"
+       id="text32">¿Pasaron 500ms?</text>
+  </g>
+  <line
+     x1="446"
+     y1="958"
+     x2="486.39355"
+     y2="958"
+     stroke="#7f8c8d"
+     stroke-width="2.69645"
+     marker-end="url(#arrow)"
+     id="line33"
+     style="stroke:#c0392b;stroke-opacity:1;marker-end:url(#marker10)" />
+  <text
+     x="465"
+     y="954"
+     font-family="Arial, sans-serif"
+     font-size="12px"
+     font-weight="bold"
+     fill="#2c3e50"
+     text-anchor="middle"
+     id="text34">SÍ</text>
+  <rect
+     x="496"
+     y="933"
+     width="200"
+     height="50"
+     rx="5"
+     fill="#e67e22"
+     stroke="#1a5276"
+     stroke-width="2"
+     id="rect34" />
+  <text
+     x="596"
+     y="955"
+     font-family="Arial, sans-serif"
+     font-size="13px"
+     font-weight="bold"
+     fill="#ffffff"
+     text-anchor="middle"
+     id="text35">enviarTelemetria()</text>
+  <text
+     x="596"
+     y="971"
+     font-family="Arial, sans-serif"
+     font-size="13px"
+     font-weight="bold"
+     fill="#ffffff"
+     text-anchor="middle"
+     id="text36">Tx Serial: 'ODOM:xx'</text>
+  <g
+     id="g9"
+     transform="translate(-54,94)">
+    <rect
+       x="300"
+       y="960"
+       width="200"
+       height="40"
+       rx="15"
+       fill="#95a5a6"
+       stroke="#1a5276"
+       stroke-width="2"
+       id="rect36" />
+    <text
+       x="400"
+       y="985"
+       font-family="Arial, sans-serif"
+       font-size="13px"
+       font-weight="bold"
+       fill="#ffffff"
+       text-anchor="middle"
+       id="text37">Fin del Ciclo Loop</text>
+  </g>
+  <path
+     d="M 245.98312,1074.0399 H 96.07927 V 251.36128 h 237.42556"
+     fill="none"
+     stroke="#2980b9"
+     stroke-width="3.23311"
+     marker-end="url(#arrow)"
+     id="path37"
+     style="marker-end:url(#marker9)"
+     sodipodi:nodetypes="cccc" />
+  <g
+     id="g3"
+     transform="translate(-54,0.8074176)">
+    <rect
+       x="300"
+       y="280"
+       width="200"
+       height="40"
+       rx="15"
+       fill="#8e44ad"
+       stroke="#1a5276"
+       stroke-width="2"
+       id="rect5" />
+    <text
+       x="400"
+       y="305"
+       font-family="Arial, sans-serif"
+       font-size="13px"
+       font-weight="bold"
+       fill="#ffffff"
+       text-anchor="middle"
+       id="text6">void loop()</text>
+  </g>
+  <g
+     id="g1"
+     transform="translate(-54,-30)">
+    <rect
+       x="300"
+       y="100"
+       width="200"
+       height="50"
+       rx="25"
+       fill="#27ae60"
+       stroke="#1a5276"
+       stroke-width="2"
+       id="rect2" />
+    <text
+       x="400"
+       y="130"
+       font-family="Arial, sans-serif"
+       font-size="13px"
+       font-weight="bold"
+       fill="#ffffff"
+       text-anchor="middle"
+       id="text3">INICIO (Encendido)</text>
+  </g>
+  <line
+     x1="346"
+     y1="591.84595"
+     x2="346"
+     y2="636.2843"
+     stroke="#7f8c8d"
+     stroke-width="3.16206"
+     marker-end="url(#arrow)"
+     id="line6-1"
+     style="stroke:#c0392b;stroke-opacity:1;marker-end:url(#marker10-4)" />
+  <line
+     x1="346"
+     y1="727.40369"
+     x2="346"
+     y2="770.42621"
+     stroke="#7f8c8d"
+     stroke-width="3.11128"
+     marker-end="url(#arrow)"
+     id="line6-2"
+     style="stroke:#c0392b;stroke-opacity:1;marker-end:url(#marker10-1)" />
+  <line
+     x1="346"
+     y1="862.96149"
+     x2="346"
+     y2="905.98401"
+     stroke="#7f8c8d"
+     stroke-width="3.11128"
+     marker-end="url(#arrow)"
+     id="line6-3"
+     style="stroke:#c0392b;stroke-opacity:1;marker-end:url(#marker10-6)" />
+  <g
+     id="g7"
+     transform="translate(-54,62.961484)">
+    <polygon
+       points="400,720 500,760 400,800 300,760 "
+       fill="#d35400"
+       stroke="#e67e22"
+       stroke-width="2"
+       id="polygon25" />
+    <text
+       x="400"
+       y="758"
+       font-family="Arial, sans-serif"
+       font-size="12px"
+       font-weight="bold"
+       fill="#ffffff"
+       text-anchor="middle"
+       id="text26">¿corteEnProceso</text>
+    <text
+       x="400"
+       y="772"
+       font-family="Arial, sans-serif"
+       font-size="12px"
+       font-weight="bold"
+       fill="#ffffff"
+       text-anchor="middle"
+       id="text27">es TRUE?</text>
+  </g>
+  <line
+     x1="346"
+     y1="998.51929"
+     x2="346"
+     y2="1041.5417"
+     stroke="#7f8c8d"
+     stroke-width="3.11128"
+     marker-end="url(#arrow)"
+     id="line6-5"
+     style="stroke:#c0392b;stroke-opacity:1;marker-end:url(#marker10-2)" />
+  <rect
+     x="496"
+     y="391"
+     width="200"
+     height="50"
+     rx="5"
+     fill="#e67e22"
+     stroke="#1a5276"
+     stroke-width="2"
+     id="rect10" />
+  <text
+     x="596"
+     y="413"
+     font-family="Arial, sans-serif"
+     font-size="13px"
+     font-weight="bold"
+     fill="#ffffff"
+     text-anchor="middle"
+     id="text11">leerSerial()</text>
+  <text
+     x="596"
+     y="429"
+     font-family="Arial, sans-serif"
+     font-size="13px"
+     font-weight="bold"
+     fill="#ffffff"
+     text-anchor="middle"
+     id="text12">Parsear 'A', 'R' o 'Q' (FIFO)</text>
+  <path
+     d="M 595.86053,847.78784 596,891 356.37158,890.28334"
+     fill="none"
+     stroke="#7f8c8d"
+     stroke-width="2.43853"
+     id="path12-7"
+     sodipodi:nodetypes="ccc"
+     style="stroke:#e67e22;stroke-width:2.439;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker10-11)" />
+  <path
+     d="m 596.13708,983.48511 0.13947,43.21219 -239.62842,-0.7167"
+     fill="none"
+     stroke="#7f8c8d"
+     stroke-width="2.43853"
+     id="path12-1"
+     sodipodi:nodetypes="ccc"
+     style="stroke:#e67e22;stroke-width:2.439;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker10-27)" />
+  <text
+     x="332.10938"
+     y="877.73633"
+     font-family="Arial, sans-serif"
+     font-size="12px"
+     font-weight="bold"
+     fill="#2c3e50"
+     text-anchor="middle"
+     id="text10-1-0">NO</text>
+  <text
+     x="332.42444"
+     y="1014.6958"
+     font-family="Arial, sans-serif"
+     font-size="12px"
+     font-weight="bold"
+     fill="#2c3e50"
+     text-anchor="middle"
+     id="text10-1-8">NO</text>
+</svg>

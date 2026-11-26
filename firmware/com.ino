@@ -19,13 +19,13 @@ void leerSerial() {
       // Verificamos si la trama es el comando de arranque de la máquina.
       if (tramaSerial == "A") {
         modoAvance = true;                     // Habilita la máquina de estados principal.
-        digitalWrite(PIN_LED_MOTOR, HIGH);     // Enciende el piloto en el tablero.
+        //digitalWrite(PIN_LED_MOTOR, HIGH);     // Enciende el piloto en el tablero.
       }
 
     else if (tramaSerial == "R") {
     // --- SENSOR VIRTUAL DETECTÓ NUEVA TABLA ---
     posicionAbsolutaCinta = 0; // Reseteamos el contador de pasos al milímetro cero
-    
+    posicionInicioTramo = 0;
     // Limpiamos la memoria de cortes viejos.
     // Si la tabla anterior salió antes de terminar un corte por X motivo, 
     // vaciamos la cola FIFO para que no tale la tabla nueva por error.
@@ -83,5 +83,14 @@ void leerSerial() {
       // para que el motor pueda dar el siguiente paso sin frenarse.
       tramaSerial += c;
     }
+  }
+}
+void enviarTelemetria() {
+  unsigned long tiempoActual = millis();
+
+  if (tiempoActual - timerTelemetria >= INTERVALO_TELEMETRIA_MS) {
+    timerTelemetria = tiempoActual;
+    Serial.print("ODOM:");
+    Serial.println(posicionAbsolutaCinta);
   }
 }

@@ -1,0 +1,657 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 1160 560"
+   width="1160"
+   height="560"
+   version="1.1"
+   id="svg43"
+   sodipodi:docname="gemini-svg (10).svg"
+   inkscape:export-filename="..\Desktop\Caja\saneadora\docs\control.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview43"
+     pagecolor="#ffffff"
+     bordercolor="#111111"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:deskcolor="#d1d1d1">
+    <inkscape:page
+       x="0"
+       y="0"
+       width="1160"
+       height="560"
+       id="page2"
+       margin="0"
+       bleed="0" />
+  </sodipodi:namedview>
+  <defs
+     id="defs5">
+    <marker
+       id="arrow-dark"
+       viewBox="0 0 12 12"
+       refX="10"
+       refY="6"
+       markerWidth="8"
+       markerHeight="8"
+       orient="auto-start-reverse">
+      <path
+         d="M 1,1 11,6 1,11 Z"
+         fill="#2c3e50"
+         id="path1" />
+    </marker>
+    <marker
+       id="arrow-blue"
+       viewBox="0 0 12 12"
+       refX="10"
+       refY="6"
+       markerWidth="8"
+       markerHeight="8"
+       orient="auto-start-reverse">
+      <path
+         d="M 1,1 11,6 1,11 Z"
+         fill="#0056b3"
+         id="path2" />
+    </marker>
+    <marker
+       id="arrow-cyan"
+       viewBox="0 0 12 12"
+       refX="10"
+       refY="6"
+       markerWidth="8"
+       markerHeight="8"
+       orient="auto-start-reverse">
+      <path
+         d="M 1,1 11,6 1,11 Z"
+         fill="#0f8b9c"
+         id="path3" />
+    </marker>
+    <marker
+       id="arrow-red"
+       viewBox="0 0 12 12"
+       refX="10"
+       refY="6"
+       markerWidth="8"
+       markerHeight="8"
+       orient="auto-start-reverse">
+      <path
+         d="M 1,1 11,6 1,11 Z"
+         fill="#d93829"
+         id="path4" />
+    </marker>
+    <marker
+       id="arrow-orange"
+       viewBox="0 0 12 12"
+       refX="10"
+       refY="6"
+       markerWidth="8"
+       markerHeight="8"
+       orient="auto-start-reverse">
+      <path
+         d="M 1,1 11,6 1,11 Z"
+         fill="#e67e22"
+         id="path5" />
+    </marker>
+  </defs>
+  <text
+     x="580"
+     y="52"
+     font-family="'DejaVu Sans', Arial, Helvetica, sans-serif"
+     font-size="21px"
+     font-weight="bold"
+     fill="#2c3e50"
+     text-anchor="middle"
+     id="text6">PRINCIPIO DE CONTROL</text>
+  <text
+     x="580"
+     y="73"
+     font-family="'DejaVu Sans', Arial, Helvetica, sans-serif"
+     font-size="12px"
+     fill="#5d6d7e"
+     text-anchor="middle"
+     id="text7">Arquitectura de Control Descentralizada en Lazo Abierto</text>
+  <g
+     id="fase-vision">
+    <rect
+       x="36"
+       y="94"
+       width="300"
+       height="426"
+       rx="12"
+       ry="12"
+       fill="#ffffff"
+       fill-opacity="0.55"
+       stroke="#9aa5b1"
+       stroke-width="2"
+       stroke-dasharray="7, 5"
+       id="rect7" />
+    <text
+       x="186"
+       y="126"
+       font-family="'DejaVu Sans', Arial, Helvetica, sans-serif"
+       font-size="14px"
+       font-weight="bold"
+       fill="#5d6d7e"
+       text-anchor="middle"
+       id="text8">FASE DE VISIÓN Y CÁLCULO</text>
+  </g>
+  <g
+     id="fase-control">
+    <rect
+       x="364"
+       y="94"
+       width="276"
+       height="426"
+       rx="12"
+       ry="12"
+       fill="#ffffff"
+       fill-opacity="0.55"
+       stroke="#9aa5b1"
+       stroke-width="2"
+       stroke-dasharray="7, 5"
+       id="rect8" />
+    <text
+       x="502"
+       y="122"
+       font-family="'DejaVu Sans', Arial, Helvetica, sans-serif"
+       font-size="14px"
+       font-weight="bold"
+       fill="#5d6d7e"
+       text-anchor="middle"
+       id="text9">FASE DE CONTROL</text>
+    <text
+       x="502"
+       y="141"
+       font-family="'DejaVu Sans', Arial, Helvetica, sans-serif"
+       font-size="14px"
+       font-weight="bold"
+       fill="#5d6d7e"
+       text-anchor="middle"
+       id="text10">EN TIEMPO REAL</text>
+  </g>
+  <g
+     id="fase-potencia">
+    <rect
+       x="668"
+       y="94"
+       width="456"
+       height="426"
+       rx="12"
+       ry="12"
+       fill="#ffffff"
+       fill-opacity="0.55"
+       stroke="#9aa5b1"
+       stroke-width="2"
+       stroke-dasharray="7, 5"
+       id="rect10" />
+    <text
+       x="896"
+       y="126"
+       font-family="'DejaVu Sans', Arial, Helvetica, sans-serif"
+       font-size="14px"
+       font-weight="bold"
+       fill="#5d6d7e"
+       text-anchor="middle"
+       id="text11">FASE DE POTENCIA Y ACTUACIÓN</text>
+  </g>
+  <line
+     x1="186"
+     y1="236"
+     x2="186"
+     y2="334"
+     stroke="#2c3e50"
+     stroke-width="2.8"
+     marker-end="url(#arrow-dark)"
+     id="line11" />
+  <text
+     x="198"
+     y="290"
+     font-family="'DejaVu Sans', Arial, Helvetica, sans-serif"
+     font-size="11.5px"
+     font-weight="bold"
+     fill="#2c3e50"
+     text-anchor="start"
+     id="text12">Video (USB)</text>
+  <polyline
+     points="312,386 350,386 350,294 381,294"
+     fill="none"
+     stroke="#0056b3"
+     stroke-width="2.8"
+     marker-start="url(#arrow-blue)"
+     marker-end="url(#arrow-blue)"
+     id="polyline12" />
+  <polyline
+     points="350,386 350,434 384,434"
+     fill="none"
+     stroke="#5499c7"
+     stroke-width="1.4"
+     stroke-dasharray="3, 3"
+     id="polyline13" />
+  <polyline
+     points="617,274 654,274 654,211 688,211"
+     fill="none"
+     stroke="#0f8b9c"
+     stroke-width="2.8"
+     marker-end="url(#arrow-cyan)"
+     id="polyline14" />
+  <text
+     x="630"
+     y="226"
+     font-family="'DejaVu Sans', Arial, Helvetica, sans-serif"
+     font-size="11px"
+     font-weight="bold"
+     fill="#0b5f6b"
+     text-anchor="end"
+     id="text14">Pulsos 5V (STEP / DIR)</text>
+  <polyline
+     points="617,314 654,314 654,379 688,379"
+     fill="none"
+     stroke="#0f8b9c"
+     stroke-width="2.8"
+     marker-end="url(#arrow-cyan)"
+     id="polyline15" />
+  <text
+     x="630"
+     y="368"
+     font-family="'DejaVu Sans', Arial, Helvetica, sans-serif"
+     font-size="11px"
+     font-weight="bold"
+     fill="#0b5f6b"
+     text-anchor="end"
+     id="text15">Señal Digital 5V</text>
+  <line
+     x1="878"
+     y1="211"
+     x2="914"
+     y2="211"
+     stroke="#d93829"
+     stroke-width="3"
+     marker-end="url(#arrow-red)"
+     id="line15" />
+  <text
+     x="899"
+     y="198"
+     font-family="'DejaVu Sans', Arial, Helvetica, sans-serif"
+     font-size="9.5px"
+     font-weight="bold"
+     fill="#b82e24"
+     text-anchor="middle"
+     id="text16">Bifásico</text>
+  <line
+     x1="878"
+     y1="379"
+     x2="914"
+     y2="379"
+     stroke="#e67e22"
+     stroke-width="3"
+     marker-end="url(#arrow-orange)"
+     id="line16" />
+  <text
+     x="899"
+     y="366"
+     font-family="'DejaVu Sans', Arial, Helvetica, sans-serif"
+     font-size="10.5px"
+     font-weight="bold"
+     fill="#d35400"
+     text-anchor="middle"
+     id="text17">24V DC</text>
+  <polyline
+     points="786,422 786,474 858,474"
+     fill="none"
+     stroke="#c0392b"
+     stroke-width="2"
+     stroke-dasharray="5, 3"
+     marker-end="url(#arrow-red)"
+     id="polyline17" />
+  <text
+     x="778"
+     y="458"
+     font-family="'DejaVu Sans', Arial, Helvetica, sans-serif"
+     font-size="9.5px"
+     font-weight="bold"
+     fill="#922b21"
+     text-anchor="end"
+     id="text18">5V DC (Prototipo)</text>
+  <g
+     id="bloque-camara">
+    <rect
+       x="66"
+       y="164"
+       width="240"
+       height="72"
+       rx="8"
+       ry="8"
+       fill="#4b535d"
+       stroke="#2b3238"
+       stroke-width="1.8"
+       id="rect18" />
+    <text
+       x="186"
+       y="194"
+       font-family="'DejaVu Sans', Arial, Helvetica, sans-serif"
+       font-size="13.5px"
+       font-weight="bold"
+       fill="#ffffff"
+       text-anchor="middle"
+       id="text19">Cámara Web USB</text>
+    <text
+       x="186"
+       y="216"
+       font-family="'DejaVu Sans', Arial, Helvetica, sans-serif"
+       font-size="11px"
+       fill="#dce2e8"
+       text-anchor="middle"
+       id="text20">Sensor Óptico (60 fps)</text>
+  </g>
+  <g
+     id="bloque-pc">
+    <rect
+       x="66"
+       y="340"
+       width="240"
+       height="92"
+       rx="8"
+       ry="8"
+       fill="#0056b3"
+       stroke="#003d80"
+       stroke-width="1.8"
+       id="rect20" />
+    <text
+       x="186"
+       y="368"
+       font-family="'DejaVu Sans', Arial, Helvetica, sans-serif"
+       font-size="13.5px"
+       font-weight="bold"
+       fill="#ffffff"
+       text-anchor="middle"
+       id="text21">PC / Raspberry Pi (HMI)</text>
+    <text
+       x="186"
+       y="391"
+       font-family="'DejaVu Sans', Arial, Helvetica, sans-serif"
+       font-size="10.5px"
+       fill="#e3f2fd"
+       text-anchor="middle"
+       id="text22">Python + OpenCV + CustomTkinter</text>
+    <text
+       x="186"
+       y="411"
+       font-family="'DejaVu Sans', Arial, Helvetica, sans-serif"
+       font-size="10.5px"
+       fill="#bbdefb"
+       text-anchor="middle"
+       id="text23">Detección y Odometría</text>
+  </g>
+  <g
+     id="bloque-arduino">
+    <rect
+       x="387"
+       y="246"
+       width="230"
+       height="96"
+       rx="8"
+       ry="8"
+       fill="#0f8b9c"
+       stroke="#0b5f6b"
+       stroke-width="1.8"
+       id="rect23" />
+    <text
+       x="502"
+       y="275"
+       font-family="'DejaVu Sans', Arial, Helvetica, sans-serif"
+       font-size="13.5px"
+       font-weight="bold"
+       fill="#ffffff"
+       text-anchor="middle"
+       id="text24">Microcontrolador</text>
+    <text
+       x="502"
+       y="298"
+       font-family="'DejaVu Sans', Arial, Helvetica, sans-serif"
+       font-size="11px"
+       fill="#e0f7fa"
+       text-anchor="middle"
+       id="text25">Arduino UNO (Firmware C++)</text>
+    <text
+       x="502"
+       y="319"
+       font-family="'DejaVu Sans', Arial, Helvetica, sans-serif"
+       font-size="10.5px"
+       fill="#b2ebf2"
+       text-anchor="middle"
+       id="text26">Cola FIFO, Rampas y Odometría</text>
+  </g>
+  <g
+     id="tarjeta-serial">
+    <rect
+       x="384"
+       y="394"
+       width="236"
+       height="80"
+       rx="8"
+       ry="8"
+       fill="#eaf4fc"
+       stroke="#a6cbeb"
+       stroke-width="1.5"
+       id="rect26" />
+    <text
+       x="502"
+       y="416"
+       font-family="'DejaVu Sans', Arial, Helvetica, sans-serif"
+       font-size="11px"
+       font-weight="bold"
+       fill="#0056b3"
+       text-anchor="middle"
+       id="text27">Serial USB (115200 baudios)</text>
+    <text
+       x="502"
+       y="438"
+       font-family="'DejaVu Sans', Arial, Helvetica, sans-serif"
+       font-size="10.5px"
+       fill="#1f2933"
+       text-anchor="middle"
+       id="text28">→ Tx: 'A', 'R', Q:p1|p2 (pasos)</text>
+    <text
+       x="502"
+       y="458"
+       font-family="'DejaVu Sans', Arial, Helvetica, sans-serif"
+       font-size="10.5px"
+       fill="#1f2933"
+       text-anchor="middle"
+       id="text29">← Rx: 'ODOM:xx' (telemetría)</text>
+  </g>
+  <g
+     id="bloque-driver">
+    <rect
+       x="694"
+       y="168"
+       width="184"
+       height="86"
+       rx="8"
+       ry="8"
+       fill="#d93829"
+       stroke="#922b21"
+       stroke-width="1.8"
+       id="rect29" />
+    <text
+       x="786"
+       y="196"
+       font-family="'DejaVu Sans', Arial, Helvetica, sans-serif"
+       font-size="13.5px"
+       font-weight="bold"
+       fill="#ffffff"
+       text-anchor="middle"
+       id="text30">Driver Motor</text>
+    <text
+       x="786"
+       y="218"
+       font-family="'DejaVu Sans', Arial, Helvetica, sans-serif"
+       font-size="11px"
+       fill="#fdedec"
+       text-anchor="middle"
+       id="text31">RTA X-PLUS (220V CA)</text>
+    <text
+       x="786"
+       y="237"
+       font-family="'DejaVu Sans', Arial, Helvetica, sans-serif"
+       font-size="10px"
+       fill="#fadbd8"
+       text-anchor="middle"
+       id="text32">1/4 micropaso (800 p/rev)</text>
+  </g>
+  <g
+     id="bloque-motor">
+    <rect
+       x="920"
+       y="168"
+       width="184"
+       height="86"
+       rx="8"
+       ry="8"
+       fill="#2b3238"
+       stroke="#181c20"
+       stroke-width="1.8"
+       id="rect32" />
+    <text
+       x="1012"
+       y="196"
+       font-family="'DejaVu Sans', Arial, Helvetica, sans-serif"
+       font-size="13.5px"
+       font-weight="bold"
+       fill="#ffffff"
+       text-anchor="middle"
+       id="text33">Motor Paso a Paso</text>
+    <text
+       x="1012"
+       y="218"
+       font-family="'DejaVu Sans', Arial, Helvetica, sans-serif"
+       font-size="11px"
+       fill="#e4e7eb"
+       text-anchor="middle"
+       id="text34">Bipolar Varitel (3,6 N·m)</text>
+    <text
+       x="1012"
+       y="237"
+       font-family="'DejaVu Sans', Arial, Helvetica, sans-serif"
+       font-size="10px"
+       fill="#cbd2d9"
+       text-anchor="middle"
+       id="text35">Poleas HTD 18/28 (1.56:1)</text>
+  </g>
+  <g
+     id="bloque-reles">
+    <rect
+       x="694"
+       y="336"
+       width="184"
+       height="86"
+       rx="8"
+       ry="8"
+       fill="#f57c00"
+       stroke="#b95800"
+       stroke-width="1.8"
+       id="rect35" />
+    <text
+       x="786"
+       y="364"
+       font-family="'DejaVu Sans', Arial, Helvetica, sans-serif"
+       font-size="13.5px"
+       font-weight="bold"
+       fill="#ffffff"
+       text-anchor="middle"
+       id="text36">Módulo de Relés</text>
+    <text
+       x="786"
+       y="386"
+       font-family="'DejaVu Sans', Arial, Helvetica, sans-serif"
+       font-size="11px"
+       fill="#fff3e0"
+       text-anchor="middle"
+       id="text37">Aislamiento Óptico</text>
+    <text
+       x="786"
+       y="405"
+       font-family="'DejaVu Sans', Arial, Helvetica, sans-serif"
+       font-size="10px"
+       fill="#ffe0b2"
+       text-anchor="middle"
+       id="text38">(Lógica 5V → Potencia)</text>
+  </g>
+  <g
+     id="bloque-electrovalvulas">
+    <rect
+       x="920"
+       y="336"
+       width="184"
+       height="86"
+       rx="8"
+       ry="8"
+       fill="#6c7a89"
+       stroke="#3e4c59"
+       stroke-width="1.8"
+       id="rect38" />
+    <text
+       x="1012"
+       y="364"
+       font-family="'DejaVu Sans', Arial, Helvetica, sans-serif"
+       font-size="13px"
+       font-weight="bold"
+       fill="#ffffff"
+       text-anchor="middle"
+       id="text39">Electroválvulas 5/2</text>
+    <text
+       x="1012"
+       y="386"
+       font-family="'DejaVu Sans', Arial, Helvetica, sans-serif"
+       font-size="10.5px"
+       fill="#e8ecf0"
+       text-anchor="middle"
+       id="text40">Sistema Neumático 24V</text>
+    <text
+       x="1012"
+       y="405"
+       font-family="'DejaVu Sans', Arial, Helvetica, sans-serif"
+       font-size="10px"
+       fill="#d5dbe0"
+       text-anchor="middle"
+       id="text41">(Pisón y Sierra</text>
+  </g>
+  <g
+     id="bloque-laser-prototipo">
+    <rect
+       x="864"
+       y="450"
+       width="240"
+       height="48"
+       rx="7"
+       ry="7"
+       fill="#fdedec"
+       stroke="#c0392b"
+       stroke-width="1.5"
+       stroke-dasharray="5, 3"
+       id="rect41" />
+    <text
+       x="984"
+       y="471"
+       font-family="'DejaVu Sans', Arial, Helvetica, sans-serif"
+       font-size="10.5px"
+       font-weight="bold"
+       fill="#922b21"
+       text-anchor="middle"
+       id="text42">Prototipo: Láser 5 mW (640 nm)</text>
+    <text
+       x="984"
+       y="487"
+       font-family="'DejaVu Sans', Arial, Helvetica, sans-serif"
+       font-size="9.5px"
+       fill="#7b241c"
+       text-anchor="middle"
+       id="text43">Validación óptica del corte sin sierra física</text>
+  </g>
+</svg>

@@ -3,19 +3,19 @@
 // ==========================================
 const int PIN_STEP = 4;
 const int PIN_DIR = 5;
-const int PIN_RELE_PISON = 6;
-const int PIN_RELE_SIERRA = 7;
+//const int PIN_RELE_PISON = 6;
+const int PIN_LASER = 7;
 //const int PIN_RELE_TRAMPILLA = 8;
-const int PIN_LED_MOTOR = 9;
+//const int PIN_LED_MOTOR = 9;
 
 // ==========================================
 // CONSTANTES DE CALIBRACIÓN MECÁNICA Y TIEMPOS
 // ==========================================
 const int RETARDO_PULSO_US = 800;
-const int TIEMPO_PISON_BAJA = 2000;
-const int TIEMPO_SIERRA_BAJA = 2000;
-const int TIEMPO_SIERRA_SUBE = 2000;
-const int TIEMPO_PISON_SUBE = 2000;
+//const int TIEMPO_PISON_BAJA = 2000;
+//const int TIEMPO_SIERRA_BAJA = 2000;
+//const int TIEMPO_SIERRA_SUBE = 2000;
+//const int TIEMPO_PISON_SUBE = 2000;
 //const int TIEMPO_TRAMPILLA = 2000;
 
 // ==========================================
@@ -56,19 +56,19 @@ void setup() {
   
   pinMode(PIN_STEP, OUTPUT);
   pinMode(PIN_DIR, OUTPUT);
-  pinMode(PIN_LED_MOTOR, OUTPUT);
-  pinMode(PIN_RELE_PISON, OUTPUT);
-  pinMode(PIN_RELE_SIERRA, OUTPUT);
+  //pinMode(PIN_LED_MOTOR, OUTPUT);
+  //pinMode(PIN_RELE_PISON, OUTPUT);
+  pinMode(PIN_LASER, OUTPUT);
   //pinMode(PIN_RELE_TRAMPILLA, OUTPUT);
   
   digitalWrite(PIN_STEP, LOW);
   digitalWrite(PIN_DIR, HIGH); 
   
   // Mantiene los relés apagados al encender (asumiendo módulo activo en LOW)
-  digitalWrite(PIN_RELE_PISON, HIGH);
-  digitalWrite(PIN_RELE_SIERRA, HIGH);
+  //digitalWrite(PIN_RELE_PISON, HIGH);
+  digitalWrite(PIN_LASER, LOW);
   //digitalWrite(PIN_RELE_TRAMPILLA, HIGH);
-  digitalWrite(PIN_LED_MOTOR, LOW);
+  //digitalWrite(PIN_LED_MOTOR, LOW);
 }
 
 void loop() {

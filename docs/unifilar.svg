@@ -1,0 +1,1314 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 1160 804"
+   width="1160"
+   height="804"
+   version="1.1"
+   id="svg89"
+   sodipodi:docname="gemini-svg (12).svg"
+   inkscape:export-filename="..\Desktop\Caja\saneadora\docs\unifilar.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview89"
+     pagecolor="#ffffff"
+     bordercolor="#111111"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="false"
+     inkscape:deskcolor="#404040">
+    <inkscape:page
+       x="0"
+       y="0"
+       width="1160"
+       height="804"
+       id="page2"
+       margin="0"
+       bleed="0" />
+  </sodipodi:namedview>
+  <defs
+     id="defs4">
+    <linearGradient
+       id="swatch90"
+       inkscape:swatch="solid">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop90" />
+    </linearGradient>
+    <marker
+       id="arrow-cyan"
+       viewBox="0 0 12 12"
+       refX="10"
+       refY="6"
+       markerWidth="7"
+       markerHeight="7"
+       orient="auto-start-reverse">
+      <path
+         d="M 1,1 11,6 1,11 Z"
+         fill="#0f8b9c"
+         id="path1" />
+    </marker>
+    <marker
+       id="arrow-blue"
+       viewBox="0 0 12 12"
+       refX="10"
+       refY="6"
+       markerWidth="7"
+       markerHeight="7"
+       orient="auto-start-reverse">
+      <path
+         d="M 1,1 11,6 1,11 Z"
+         fill="#1f618d"
+         id="path2" />
+    </marker>
+    <marker
+       id="arrow-orange"
+       viewBox="0 0 12 12"
+       refX="10"
+       refY="6"
+       markerWidth="7"
+       markerHeight="7"
+       orient="auto-start-reverse"
+       preserveAspectRatio="xMidYMid">
+      <path
+         d="M 1,1 11,6 1,11 Z"
+         fill="#e67e22"
+         id="path3" />
+    </marker>
+    <marker
+       id="arrow-red"
+       viewBox="0 0 12 12"
+       refX="10"
+       refY="6"
+       markerWidth="7"
+       markerHeight="7"
+       orient="auto-start-reverse">
+      <path
+         d="M 1,1 11,6 1,11 Z"
+         fill="#c0392b"
+         id="path4" />
+    </marker>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#swatch90"
+       id="linearGradient90"
+       x1="548.013"
+       y1="161.22241"
+       x2="551.987"
+       y2="161.22241"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <text
+     x="580"
+     y="50"
+     font-family="'DejaVu Sans', Arial, Helvetica, sans-serif"
+     font-size="20px"
+     font-weight="bold"
+     fill="#2c3e50"
+     text-anchor="middle"
+     id="text5">ESQUEMA UNIFILAR — TABLERO ELÉCTRICO Y ACTUADORES</text>
+  <g
+     id="zona-24v">
+    <rect
+       x="34"
+       y="88"
+       width="314"
+       height="446"
+       rx="12"
+       ry="12"
+       fill="#ffffff"
+       fill-opacity="0.6"
+       stroke="#e67e22"
+       stroke-width="2"
+       stroke-dasharray="7, 5"
+       id="rect6" />
+    <text
+       x="191"
+       y="114"
+       font-family="'DejaVu Sans', Arial, Helvetica, sans-serif"
+       font-size="13.5px"
+       font-weight="bold"
+       fill="#d35400"
+       text-anchor="middle"
+       id="text7">ZONA 24V CC (NEUMÁTICA)</text>
+  </g>
+  <g
+     id="zona-220v">
+    <rect
+       x="368"
+       y="88"
+       width="364"
+       height="446"
+       rx="12"
+       ry="12"
+       fill="#ffffff"
+       fill-opacity="0.6"
+       stroke="#d93829"
+       stroke-width="2"
+       stroke-dasharray="7, 5"
+       id="rect7" />
+    <text
+       x="550"
+       y="114"
+       font-family="'DejaVu Sans', Arial, Helvetica, sans-serif"
+       font-size="13.5px"
+       font-weight="bold"
+       fill="#c0392b"
+       text-anchor="middle"
+       id="text8">ZONA 220V CA (RED Y SEGURIDAD)</text>
+  </g>
+  <g
+     id="zona-actuadores">
+    <rect
+       x="752"
+       y="88"
+       width="374"
+       height="446"
+       rx="12"
+       ry="12"
+       fill="#ffffff"
+       fill-opacity="0.6"
+       stroke="#4b535d"
+       stroke-width="2"
+       stroke-dasharray="7, 5"
+       id="rect8" />
+    <text
+       x="939"
+       y="114"
+       font-family="'DejaVu Sans', Arial, Helvetica, sans-serif"
+       font-size="13.5px"
+       font-weight="bold"
+       fill="#3e4c59"
+       text-anchor="middle"
+       id="text9">ACTUADORES (MÁQUINA)</text>
+  </g>
+  <rect
+     x="34"
+     y="624"
+     width="1092"
+     height="144"
+     rx="12"
+     ry="12"
+     fill="#ffffff"
+     fill-opacity="0.6"
+     stroke="#0f8b9c"
+     stroke-width="2"
+     stroke-dasharray="7, 5"
+     id="rect9" />
+  <text
+     x="361.88763"
+     y="652.67224"
+     font-family="'DejaVu Sans', Arial, Helvetica, sans-serif"
+     font-size="13.5px"
+     font-weight="bold"
+     fill="#0b5f6b"
+     text-anchor="middle"
+     id="text10">ZONA 5V DC (LÓGICA Y CONTROL)</text>
+  <line
+     x1="550"
+     y1="135.45265"
+     x2="550"
+     y2="186.99217"
+     stroke="#d93829"
+     stroke-width="3.97402"
+     id="line11"
+     style="fill:url(#linearGradient90);stroke-width:3;stroke-dasharray:none" />
+  <line
+     x1="542.5"
+     y1="165.35344"
+     x2="557.5"
+     y2="157.09138"
+     stroke="#d93829"
+     stroke-width="1.98351"
+     stroke-linecap="round"
+     id="line12" />
+  <line
+     x1="542.5"
+     y1="171.45163"
+     x2="557.5"
+     y2="163.18958"
+     stroke="#d93829"
+     stroke-width="1.98351"
+     stroke-linecap="round"
+     id="line13" />
+  <line
+     x1="542.5"
+     y1="177.5498"
+     x2="557.5"
+     y2="169.28775"
+     stroke="#d93829"
+     stroke-width="1.98351"
+     stroke-linecap="round"
+     id="line14" />
+  <text
+     x="559.34991"
+     y="172.67862"
+     font-family="'DejaVu Sans', Arial, Helvetica, sans-serif"
+     font-size="9.91755px"
+     font-weight="bold"
+     fill="#2c3e50"
+     text-anchor="start"
+     id="text14"
+     transform="scale(1.0083133,0.99175524)"
+     style="stroke-width:0.991755">3 × 2,5 mm² (L+N+PE)</text>
+  <line
+     x1="550"
+     y1="236.17108"
+     x2="550"
+     y2="258"
+     stroke="#d93829"
+     stroke-width="2.71628"
+     id="line15" />
+  <line
+     x1="550"
+     y1="305.02158"
+     x2="550"
+     y2="324.32028"
+     stroke="#d93829"
+     stroke-width="2.69216"
+     id="line16" />
+  <ellipse
+     cx="607.52631"
+     cy="322.72598"
+     fill="#d93829"
+     id="circle16"
+     rx="4.5"
+     ry="4.4261026"
+     style="stroke-width:0.991755" />
+  <polyline
+     points="550,326 590,326 590,346"
+     fill="none"
+     stroke="#d93829"
+     stroke-width="2.6"
+     id="polyline16"
+     transform="matrix(1.4764316,0,0,1.0907882,-263.56831,-32.622169)"
+     style="stroke-width:2.36398;stroke-dasharray:none" />
+  <polyline
+     points="590,326 690,326 690,492 642,492"
+     fill="none"
+     stroke="#d93829"
+     stroke-width="2.4"
+     id="polyline17"
+     transform="matrix(1,0,0,0.98357839,0,2.0794299)" />
+  <line
+     x1="682.5"
+     y1="460.42697"
+     x2="697.5"
+     y2="452.16492"
+     stroke="#d93829"
+     stroke-width="1.98351"
+     stroke-linecap="round"
+     id="line17" />
+  <line
+     x1="682.5"
+     y1="466.52515"
+     x2="697.5"
+     y2="458.26306"
+     stroke="#d93829"
+     stroke-width="1.98351"
+     stroke-linecap="round"
+     id="line18" />
+  <line
+     x1="682.5"
+     y1="472.62332"
+     x2="697.5"
+     y2="464.36127"
+     stroke="#d93829"
+     stroke-width="1.98351"
+     stroke-linecap="round"
+     id="line19" />
+  <text
+     x="696.53271"
+     y="504.67682"
+     font-family="'DejaVu Sans', Arial, Helvetica, sans-serif"
+     font-size="9.42167px"
+     font-weight="bold"
+     fill="#2c3e50"
+     text-anchor="end"
+     id="text19"
+     transform="scale(1.0083133,0.99175524)"
+     style="stroke-width:0.991755">3 × 2,5 mm²</text>
+  <line
+     x1="522"
+     y1="370.987"
+     x2="542"
+     y2="370.987"
+     stroke="#c0392b"
+     stroke-width="2.43939"
+     stroke-dasharray="4, 2"
+     marker-end="url(#arrow-red)"
+     id="line20" />
+  <line
+     x1="608"
+     y1="391.57648"
+     x2="608"
+     y2="419.11667"
+     stroke="#d93829"
+     stroke-width="2.57856"
+     id="line21" />
+  <ellipse
+     cx="607.95062"
+     cy="419.11667"
+     fill="#d93829"
+     id="circle21"
+     rx="4.5"
+     ry="4.4261026"
+     style="stroke-width:0.991755" />
+  <polyline
+     points="590,424 386,424 386,168 303,168"
+     fill="none"
+     stroke="#d93829"
+     stroke-width="2.6"
+     id="polyline21"
+     transform="matrix(1,0,0,0.98357839,0,2.0794299)" />
+  <line
+     x1="449.60001"
+     y1="426.4935"
+     x2="458"
+     y2="411.73984"
+     stroke="#d93829"
+     stroke-width="1.98351"
+     stroke-linecap="round"
+     id="line22" />
+  <line
+     x1="455.79999"
+     y1="426.4935"
+     x2="464.20001"
+     y2="411.73984"
+     stroke="#d93829"
+     stroke-width="1.98351"
+     stroke-linecap="round"
+     id="line23" />
+  <line
+     x1="462"
+     y1="426.4935"
+     x2="470.39999"
+     y2="411.73984"
+     stroke="#d93829"
+     stroke-width="1.98351"
+     stroke-linecap="round"
+     id="line24" />
+  <text
+     x="496.7417"
+     y="435.36755"
+     font-family="'DejaVu Sans', Arial, Helvetica, sans-serif"
+     font-size="9.91755px"
+     font-weight="bold"
+     fill="#2c3e50"
+     text-anchor="middle"
+     id="text24"
+     transform="scale(1.0083133,0.99175524)"
+     style="stroke-width:0.991755">3 × 2,5 mm²</text>
+  <path
+     d="m 590,419.11667 h 93 a 7,6.8850487 0 0 1 14,0 h 17 V 167.3206 h 64"
+     fill="none"
+     stroke="#d93829"
+     stroke-width="2.57856"
+     id="path24" />
+  <line
+     x1="637.59998"
+     y1="426.4935"
+     x2="646"
+     y2="411.73984"
+     stroke="#d93829"
+     stroke-width="1.98351"
+     stroke-linecap="round"
+     id="line25" />
+  <line
+     x1="643.79999"
+     y1="426.4935"
+     x2="652.20001"
+     y2="411.73984"
+     stroke="#d93829"
+     stroke-width="1.98351"
+     stroke-linecap="round"
+     id="line26" />
+  <line
+     x1="650"
+     y1="426.4935"
+     x2="658.40002"
+     y2="411.73984"
+     stroke="#d93829"
+     stroke-width="1.98351"
+     stroke-linecap="round"
+     id="line27" />
+  <text
+     x="644.17993"
+     y="443.73965"
+     font-family="'DejaVu Sans', Arial, Helvetica, sans-serif"
+     font-size="9.91755px"
+     font-weight="bold"
+     fill="#2c3e50"
+     text-anchor="middle"
+     id="text27"
+     transform="scale(1.0083133,0.99175524)"
+     style="stroke-width:0.991755">3 × 2,5 mm²</text>
+  <line
+     x1="191"
+     y1="198"
+     x2="191"
+     y2="268"
+     stroke="#e67e22"
+     stroke-width="2.6"
+     id="line28" />
+  <line
+     x1="183.5"
+     y1="235.10001"
+     x2="198.5"
+     y2="226.7"
+     stroke="#e67e22"
+     stroke-width="2"
+     stroke-linecap="round"
+     id="line29" />
+  <line
+     x1="183.5"
+     y1="241.3"
+     x2="198.5"
+     y2="232.89999"
+     stroke="#e67e22"
+     stroke-width="2"
+     stroke-linecap="round"
+     id="line30" />
+  <text
+     x="204"
+     y="238"
+     font-family="'DejaVu Sans', Arial, Helvetica, sans-serif"
+     font-size="10px"
+     font-weight="bold"
+     fill="#2c3e50"
+     text-anchor="start"
+     id="text30">2 × 1,5 mm²</text>
+  <line
+     x1="191"
+     y1="320"
+     x2="191"
+     y2="384"
+     stroke="#e67e22"
+     stroke-width="2.6"
+     id="line31" />
+  <line
+     x1="183.5"
+     y1="353.10001"
+     x2="198.5"
+     y2="344.70001"
+     stroke="#e67e22"
+     stroke-width="2"
+     stroke-linecap="round"
+     id="line32" />
+  <line
+     x1="183.5"
+     y1="359.29999"
+     x2="198.5"
+     y2="350.89999"
+     stroke="#e67e22"
+     stroke-width="2"
+     stroke-linecap="round"
+     id="line33" />
+  <text
+     x="204"
+     y="356"
+     font-family="'DejaVu Sans', Arial, Helvetica, sans-serif"
+     font-size="10px"
+     font-weight="bold"
+     fill="#2c3e50"
+     text-anchor="start"
+     id="text33">2 × 1,5 mm²</text>
+  <polyline
+     points="266,440 266,562 742,562 742,383 774,383"
+     fill="none"
+     stroke="#e67e22"
+     stroke-width="2.6"
+     marker-end="url(#arrow-orange)"
+     id="polyline33"
+     transform="matrix(1.609044,0,0,0.99278199,-162.07718,3.3878322)"
+     style="stroke-width:1.58241;stroke-dasharray:none" />
+  <line
+     x1="345.60001"
+     y1="569.5"
+     x2="354"
+     y2="554.5"
+     stroke="#e67e22"
+     stroke-width="2"
+     stroke-linecap="round"
+     id="line34" />
+  <line
+     x1="351.79999"
+     y1="569.5"
+     x2="360.20001"
+     y2="554.5"
+     stroke="#e67e22"
+     stroke-width="2"
+     stroke-linecap="round"
+     id="line35" />
+  <line
+     x1="358"
+     y1="569.5"
+     x2="366.39999"
+     y2="554.5"
+     stroke="#e67e22"
+     stroke-width="2"
+     stroke-linecap="round"
+     id="line36" />
+  <text
+     x="438.96463"
+     y="553.83508"
+     font-family="'DejaVu Sans', Arial, Helvetica, sans-serif"
+     font-size="9.5px"
+     font-weight="bold"
+     fill="#b95800"
+     text-anchor="middle"
+     id="text36">3 × 1,0 mm² (0V + 2 sal. 24V)</text>
+  <polyline
+     points="238,440 238,594 758,594 758,464 774,464"
+     fill="none"
+     stroke="#c0392b"
+     stroke-width="2"
+     stroke-dasharray="6, 4"
+     marker-end="url(#arrow-red)"
+     id="polyline36"
+     transform="matrix(1.2316367,0,0,0.99895311,-37.276254,0.54176624)" />
+  <line
+     x1="348.70001"
+     y1="601.5"
+     x2="357.10001"
+     y2="586.5"
+     stroke="#c0392b"
+     stroke-width="2"
+     stroke-linecap="round"
+     id="line37" />
+  <line
+     x1="354.89999"
+     y1="601.5"
+     x2="363.29999"
+     y2="586.5"
+     stroke="#c0392b"
+     stroke-width="2"
+     stroke-linecap="round"
+     id="line38" />
+  <text
+     x="456"
+     y="586"
+     font-family="'DejaVu Sans', Arial, Helvetica, sans-serif"
+     font-size="9.5px"
+     font-weight="bold"
+     fill="#922b21"
+     text-anchor="middle"
+     id="text38">2 × 0,5 mm² (Rama prototipo 5V DC)</text>
+  <g
+     id="cableado-motor">
+    <line
+       x1="896"
+       y1="198"
+       x2="896"
+       y2="252"
+       stroke="#2c3e50"
+       stroke-width="2.8"
+       id="line39" />
+    <line
+       x1="888.5"
+       y1="218.89999"
+       x2="903.5"
+       y2="210.5"
+       stroke="#2c3e50"
+       stroke-width="2"
+       stroke-linecap="round"
+       id="line40" />
+    <line
+       x1="888.5"
+       y1="225.10001"
+       x2="903.5"
+       y2="216.7"
+       stroke="#2c3e50"
+       stroke-width="2"
+       stroke-linecap="round"
+       id="line41" />
+    <line
+       x1="888.5"
+       y1="231.3"
+       x2="903.5"
+       y2="222.89999"
+       stroke="#2c3e50"
+       stroke-width="2"
+       stroke-linecap="round"
+       id="line42" />
+    <line
+       x1="888.5"
+       y1="237.5"
+       x2="903.5"
+       y2="229.10001"
+       stroke="#2c3e50"
+       stroke-width="2"
+       stroke-linecap="round"
+       id="line43" />
+    <text
+       x="912"
+       y="228"
+       font-family="'DejaVu Sans', Arial, Helvetica, sans-serif"
+       font-size="10px"
+       font-weight="bold"
+       fill="#2c3e50"
+       text-anchor="start"
+       id="text43">4 × 1,0 mm²</text>
+  </g>
+  <line
+     x1="432"
+     y1="704"
+     x2="293"
+     y2="704"
+     stroke="#0f8b9c"
+     stroke-width="2.4"
+     marker-end="url(#arrow-cyan)"
+     id="line44" />
+  <line
+     x1="345.39999"
+     y1="711.5"
+     x2="353.79999"
+     y2="696.5"
+     stroke="#0f8b9c"
+     stroke-width="2"
+     stroke-linecap="round"
+     id="line45" />
+  <line
+     x1="351.60001"
+     y1="711.5"
+     x2="360"
+     y2="696.5"
+     stroke="#0f8b9c"
+     stroke-width="2"
+     stroke-linecap="round"
+     id="line46" />
+  <line
+     x1="357.79999"
+     y1="711.5"
+     x2="366.20001"
+     y2="696.5"
+     stroke="#0f8b9c"
+     stroke-width="2"
+     stroke-linecap="round"
+     id="line47" />
+  <line
+     x1="364"
+     y1="711.5"
+     x2="372.39999"
+     y2="696.5"
+     stroke="#0f8b9c"
+     stroke-width="2"
+     stroke-linecap="round"
+     id="line48" />
+  <text
+     x="362"
+     y="686"
+     font-family="'DejaVu Sans', Arial, Helvetica, sans-serif"
+     font-size="10px"
+     font-weight="bold"
+     fill="#0b5f6b"
+     text-anchor="middle"
+     id="text49">4 × 0,5 mm²</text>
+  <text
+     x="362"
+     y="727"
+     font-family="'DejaVu Sans', Arial, Helvetica, sans-serif"
+     font-size="9px"
+     fill="#52606d"
+     text-anchor="middle"
+     id="text50">(5V, GND, 2 señales)</text>
+  <line
+     x1="668"
+     y1="704"
+     x2="796"
+     y2="704"
+     stroke="#0f8b9c"
+     stroke-width="2.4"
+     marker-end="url(#arrow-cyan)"
+     id="line50" />
+  <line
+     x1="725.59998"
+     y1="711.5"
+     x2="734"
+     y2="696.5"
+     stroke="#0f8b9c"
+     stroke-width="2"
+     stroke-linecap="round"
+     id="line51" />
+  <line
+     x1="731.79999"
+     y1="711.5"
+     x2="740.20001"
+     y2="696.5"
+     stroke="#0f8b9c"
+     stroke-width="2"
+     stroke-linecap="round"
+     id="line52" />
+  <line
+     x1="738"
+     y1="711.5"
+     x2="746.40002"
+     y2="696.5"
+     stroke="#0f8b9c"
+     stroke-width="2"
+     stroke-linecap="round"
+     id="line53" />
+  <text
+     x="736"
+     y="686"
+     font-family="'DejaVu Sans', Arial, Helvetica, sans-serif"
+     font-size="10px"
+     font-weight="bold"
+     fill="#0b5f6b"
+     text-anchor="middle"
+     id="text53">3 × 0,5 mm²</text>
+  <text
+     x="736"
+     y="727"
+     font-family="'DejaVu Sans', Arial, Helvetica, sans-serif"
+     font-size="9.5px"
+     fill="#52606d"
+     text-anchor="middle"
+     id="text54">(STEP, DIR, GND)</text>
+  <line
+     x1="191"
+     y1="674"
+     x2="191"
+     y2="444"
+     stroke="#0f8b9c"
+     stroke-width="1.8"
+     stroke-dasharray="5, 4"
+     marker-end="url(#arrow-cyan)"
+     id="line54" />
+  <line
+     x1="550"
+     y1="514.09894"
+     x2="550"
+     y2="667.95105"
+     stroke="#1f618d"
+     stroke-width="1.84147"
+     stroke-dasharray="5, 4"
+     marker-start="url(#arrow-blue)"
+     marker-end="url(#arrow-blue)"
+     id="line55" />
+  <rect
+     x="561.87097"
+     y="638.8678"
+     width="136"
+     height="19"
+     rx="4"
+     fill="#f6f7f9"
+     stroke="#aed6f1"
+     stroke-width="1"
+     id="rect55" />
+  <text
+     x="629.87097"
+     y="651.8678"
+     font-family="'DejaVu Sans', Arial, Helvetica, sans-serif"
+     font-size="9.5px"
+     font-weight="bold"
+     fill="#1f618d"
+     text-anchor="middle"
+     id="text56">USB Serial (115200 bd)</text>
+  <polyline
+     points="996,704 1084,704 1084,168 1014,168"
+     fill="none"
+     stroke="#0f8b9c"
+     stroke-width="1.8"
+     stroke-dasharray="5, 4"
+     marker-end="url(#arrow-cyan)"
+     id="polyline56" />
+  <g
+     id="comp-fuente">
+    <rect
+       x="79"
+       y="138"
+       width="224"
+       height="60"
+       rx="6"
+       ry="6"
+       fill="#ffffff"
+       stroke="#e67e22"
+       stroke-width="2.5"
+       id="rect57" />
+    <text
+       x="191"
+       y="164"
+       font-family="'DejaVu Sans', Arial, Helvetica, sans-serif"
+       font-size="12.5px"
+       font-weight="bold"
+       fill="#1c2833"
+       text-anchor="middle"
+       id="text58">Fuente Switching</text>
+    <text
+       x="191"
+       y="183"
+       font-family="'DejaVu Sans', Arial, Helvetica, sans-serif"
+       font-size="10.5px"
+       fill="#52606d"
+       text-anchor="middle"
+       id="text59">220V AC → 24V DC / 10A</text>
+  </g>
+  <g
+     id="comp-termo-dc">
+    <rect
+       x="103"
+       y="268"
+       width="176"
+       height="52"
+       rx="6"
+       ry="6"
+       fill="#ffffff"
+       stroke="#2c3e50"
+       stroke-width="2"
+       id="rect59" />
+    <text
+       x="191"
+       y="290"
+       font-family="'DejaVu Sans', Arial, Helvetica, sans-serif"
+       font-size="12px"
+       font-weight="bold"
+       fill="#1c2833"
+       text-anchor="middle"
+       id="text60">Termomagnética DC</text>
+    <text
+       x="191"
+       y="308"
+       font-family="'DejaVu Sans', Arial, Helvetica, sans-serif"
+       font-size="10.5px"
+       fill="#52606d"
+       text-anchor="middle"
+       id="text61">1 × 10A (Curva C)</text>
+  </g>
+  <g
+     id="comp-contactos-rele">
+    <rect
+       x="93"
+       y="384"
+       width="196"
+       height="56"
+       rx="6"
+       ry="6"
+       fill="#ffffff"
+       stroke="#2c3e50"
+       stroke-width="2"
+       id="rect61" />
+    <text
+       x="191"
+       y="408"
+       font-family="'DejaVu Sans', Arial, Helvetica, sans-serif"
+       font-size="12px"
+       font-weight="bold"
+       fill="#1c2833"
+       text-anchor="middle"
+       id="text62">Contactos Relé (NA)</text>
+    <text
+       x="191"
+       y="426"
+       font-family="'DejaVu Sans', Arial, Helvetica, sans-serif"
+       font-size="10.5px"
+       fill="#52606d"
+       text-anchor="middle"
+       id="text63">Conmutación 24V / 5V</text>
+  </g>
+  <g
+     id="comp-termo-ac">
+    <rect
+       x="448"
+       y="188"
+       width="204"
+       height="50"
+       rx="6"
+       ry="6"
+       fill="#ffffff"
+       stroke="#2c3e50"
+       stroke-width="2"
+       id="rect63" />
+    <text
+       x="550"
+       y="210"
+       font-family="'DejaVu Sans', Arial, Helvetica, sans-serif"
+       font-size="12px"
+       font-weight="bold"
+       fill="#1c2833"
+       text-anchor="middle"
+       id="text64">Termomagnética General</text>
+    <text
+       x="550"
+       y="227"
+       font-family="'DejaVu Sans', Arial, Helvetica, sans-serif"
+       font-size="10.5px"
+       fill="#52606d"
+       text-anchor="middle"
+       id="text65">2 × 16A (Curva C)</text>
+  </g>
+  <g
+     id="comp-diferencial">
+    <rect
+       x="448"
+       y="258"
+       width="204"
+       height="50"
+       rx="6"
+       ry="6"
+       fill="#ffffff"
+       stroke="#2c3e50"
+       stroke-width="2"
+       id="rect65" />
+    <text
+       x="550"
+       y="280"
+       font-family="'DejaVu Sans', Arial, Helvetica, sans-serif"
+       font-size="12px"
+       font-weight="bold"
+       fill="#1c2833"
+       text-anchor="middle"
+       id="text66">Interruptor Diferencial</text>
+    <text
+       x="550"
+       y="297"
+       font-family="'DejaVu Sans', Arial, Helvetica, sans-serif"
+       font-size="10.5px"
+       fill="#52606d"
+       text-anchor="middle"
+       id="text67">2 × 25A / 30 mA</text>
+  </g>
+  <g
+     id="comp-parada-emergencia"
+     transform="translate(18)">
+    <rect
+       x="398"
+       y="346"
+       width="106"
+       height="50"
+       rx="6"
+       ry="6"
+       fill="#fdedec"
+       stroke="#c0392b"
+       stroke-width="2.2"
+       id="rect67" />
+    <text
+       x="451"
+       y="368"
+       font-family="'DejaVu Sans', Arial, Helvetica, sans-serif"
+       font-size="10px"
+       font-weight="bold"
+       fill="#922b21"
+       text-anchor="middle"
+       id="text68">Parada Emerg.</text>
+    <text
+       x="451"
+       y="384"
+       font-family="'DejaVu Sans', Arial, Helvetica, sans-serif"
+       font-size="9.5px"
+       font-weight="bold"
+       fill="#c0392b"
+       text-anchor="middle"
+       id="text69">Hongo NC</text>
+  </g>
+  <g
+     id="comp-contactor-km1"
+     transform="translate(22)">
+    <rect
+       x="524"
+       y="346"
+       width="132"
+       height="50"
+       rx="6"
+       ry="6"
+       fill="#ffffff"
+       stroke="#c0392b"
+       stroke-width="2.2"
+       id="rect69" />
+    <text
+       x="590"
+       y="368"
+       font-family="'DejaVu Sans', Arial, Helvetica, sans-serif"
+       font-size="11.5px"
+       font-weight="bold"
+       fill="#1c2833"
+       text-anchor="middle"
+       id="text70">Contactor KM1</text>
+    <text
+       x="590"
+       y="385"
+       font-family="'DejaVu Sans', Arial, Helvetica, sans-serif"
+       font-size="9.5px"
+       fill="#52606d"
+       text-anchor="middle"
+       id="text71">Corte de Potencia</text>
+  </g>
+  <rect
+     x="458"
+     y="460"
+     width="184"
+     height="52"
+     rx="6"
+     ry="6"
+     fill="#e8ecf0"
+     stroke="#5d6d7e"
+     stroke-width="2"
+     id="rect71" />
+  <text
+     x="550"
+     y="482"
+     font-family="'DejaVu Sans', Arial, Helvetica, sans-serif"
+     font-size="12px"
+     font-weight="bold"
+     fill="#1c2833"
+     text-anchor="middle"
+     id="text72">Toma PC Visión</text>
+  <text
+     x="550"
+     y="500"
+     font-family="'DejaVu Sans', Arial, Helvetica, sans-serif"
+     font-size="9.5px"
+     fill="#52606d"
+     text-anchor="middle"
+     id="text73">220V AC (sin corte KM1)</text>
+  <g
+     id="comp-driver">
+    <rect
+       x="778"
+       y="138"
+       width="232"
+       height="60"
+       rx="6"
+       ry="6"
+       fill="#ffffff"
+       stroke="#d93829"
+       stroke-width="2.5"
+       id="rect73" />
+    <text
+       x="894"
+       y="164"
+       font-family="'DejaVu Sans', Arial, Helvetica, sans-serif"
+       font-size="12.5px"
+       font-weight="bold"
+       fill="#1c2833"
+       text-anchor="middle"
+       id="text74">Driver R.T.A. X-PLUS B4</text>
+    <text
+       x="894"
+       y="183"
+       font-family="'DejaVu Sans', Arial, Helvetica, sans-serif"
+       font-size="10.5px"
+       fill="#52606d"
+       text-anchor="middle"
+       id="text75">220V CA — 1/4 Micropaso</text>
+  </g>
+  <g
+     id="comp-motor">
+    <circle
+       cx="896"
+       cy="286"
+       r="34"
+       fill="#e8ecf0"
+       stroke="#2c3e50"
+       stroke-width="2.5"
+       id="circle75" />
+    <text
+       x="896"
+       y="286"
+       font-family="'DejaVu Sans', Arial, Helvetica, sans-serif"
+       font-size="17px"
+       font-weight="bold"
+       fill="#1c2833"
+       text-anchor="middle"
+       id="text76">M</text>
+    <text
+       x="896"
+       y="303"
+       font-family="'DejaVu Sans', Arial, Helvetica, sans-serif"
+       font-size="10px"
+       font-weight="bold"
+       fill="#52606d"
+       text-anchor="middle"
+       id="text77">PaP</text>
+    <text
+       x="942"
+       y="282"
+       font-family="'DejaVu Sans', Arial, Helvetica, sans-serif"
+       font-size="11.5px"
+       font-weight="bold"
+       fill="#1c2833"
+       text-anchor="start"
+       id="text78">Motor Bipolar Varitel</text>
+    <text
+       x="942"
+       y="298"
+       font-family="'DejaVu Sans', Arial, Helvetica, sans-serif"
+       font-size="10.5px"
+       fill="#52606d"
+       text-anchor="start"
+       id="text79">3,6 N·m (4 hilos)</text>
+  </g>
+  <g
+     id="comp-electrovalvulas">
+    <rect
+       x="778"
+       y="356"
+       width="232"
+       height="54"
+       rx="6"
+       ry="6"
+       fill="#ffffff"
+       stroke="#2c3e50"
+       stroke-width="2"
+       id="rect79" />
+    <text
+       x="894"
+       y="379"
+       font-family="'DejaVu Sans', Arial, Helvetica, sans-serif"
+       font-size="12px"
+       font-weight="bold"
+       fill="#1c2833"
+       text-anchor="middle"
+       id="text80">Electroválvulas 5/2</text>
+    <text
+       x="894"
+       y="397"
+       font-family="'DejaVu Sans', Arial, Helvetica, sans-serif"
+       font-size="10px"
+       fill="#52606d"
+       text-anchor="middle"
+       id="text81">Pisón y Sierra (24V DC)</text>
+  </g>
+  <g
+     id="comp-laser-prototipo">
+    <rect
+       x="778"
+       y="440"
+       width="232"
+       height="48"
+       rx="6"
+       ry="6"
+       fill="#fdedec"
+       stroke="#c0392b"
+       stroke-width="1.6"
+       stroke-dasharray="5, 3"
+       id="rect81" />
+    <text
+       x="894"
+       y="460"
+       font-family="'DejaVu Sans', Arial, Helvetica, sans-serif"
+       font-size="10.5px"
+       font-weight="bold"
+       fill="#922b21"
+       text-anchor="middle"
+       id="text82">Prototipo: Láser 5 mW (5V DC)</text>
+    <text
+       x="894"
+       y="476"
+       font-family="'DejaVu Sans', Arial, Helvetica, sans-serif"
+       font-size="9.5px"
+       fill="#7b241c"
+       text-anchor="middle"
+       id="text83">Conmutado vía relé (reemplaza corte)</text>
+  </g>
+  <g
+     id="comp-bobinas-reles">
+    <rect
+       x="93"
+       y="674"
+       width="196"
+       height="60"
+       rx="6"
+       ry="6"
+       fill="#ffffff"
+       stroke="#0f8b9c"
+       stroke-width="2"
+       id="rect83" />
+    <text
+       x="191"
+       y="708"
+       font-family="'DejaVu Sans', Arial, Helvetica, sans-serif"
+       font-size="12px"
+       font-weight="bold"
+       fill="#0b5f6b"
+       text-anchor="middle"
+       id="text84">Bobinas Relés (5V)</text>
+  </g>
+  <g
+     id="comp-arduino">
+    <rect
+       x="432"
+       y="672"
+       width="236"
+       height="64"
+       rx="8"
+       ry="8"
+       fill="#0f8b9c"
+       stroke="#0b5f6b"
+       stroke-width="2"
+       id="rect85" />
+    <text
+       x="550"
+       y="707"
+       font-family="'DejaVu Sans', Arial, Helvetica, sans-serif"
+       font-size="12.5px"
+       font-weight="bold"
+       fill="#ffffff"
+       text-anchor="middle"
+       id="text86">Arduino UNO (Firmware C++)</text>
+    <text
+       x="550"
+       y="719"
+       font-family="'DejaVu Sans', Arial, Helvetica, sans-serif"
+       font-size="10px"
+       fill="#e0f7fa"
+       text-anchor="middle"
+       id="text87" />
+  </g>
+  <g
+     id="comp-logica-driver">
+    <rect
+       x="800"
+       y="674"
+       width="196"
+       height="60"
+       rx="6"
+       ry="6"
+       fill="#ffffff"
+       stroke="#0f8b9c"
+       stroke-width="2"
+       id="rect87" />
+    <text
+       x="898"
+       y="708"
+       font-family="'DejaVu Sans', Arial, Helvetica, sans-serif"
+       font-size="12px"
+       font-weight="bold"
+       fill="#0b5f6b"
+       text-anchor="middle"
+       id="text88">Lógica Driver (5V)</text>
+  </g>
+  <path
+     style="fill:#0f8b9c;stroke:#e67e22;stroke-width:2;stroke-miterlimit:1;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#arrow-orange)"
+     d="m 1013.4289,383.62333 19.5706,0.0127"
+     id="path89" />
+  <rect
+     style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:2.79994;stroke-miterlimit:1;stroke-dasharray:none;stroke-opacity:1"
+     id="rect89"
+     width="50.081955"
+     height="9.1022339"
+     x="1032.9995"
+     y="379.0849"
+     rx="0"
+     ry="8" />
+  <path
+     style="fill:#c0392b;fill-opacity:1;stroke:none;stroke-width:2;stroke-miterlimit:1;stroke-dasharray:none;stroke-opacity:1"
+     d="m 889.93128,498.4517 12.69302,-0.0835 -6.87492,-8.6847 z"
+     id="path90" />
+  <ellipse
+     cx="550"
+     cy="129.05939"
+     fill="#d93829"
+     stroke="#922b21"
+     stroke-width="1.48763"
+     id="circle11"
+     rx="6.5"
+     ry="6.3932595" />
+</svg>
